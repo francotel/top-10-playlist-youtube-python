@@ -19,3 +19,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+      
+      - name: Run python
+        run: env YT_API_KEY={{ secrets.YT_API_KEY }} PLAYLIST_ID={{ secrets.PLAYLIST_ID }} python3 playlist-reinvent.py

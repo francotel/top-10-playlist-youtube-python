@@ -5,7 +5,7 @@ FROM python:3
 WORKDIR /app
 
 # Copy the Python code and requirements into the container
-COPY playlist.py /app
+COPY top-10-playlist.py /app
 COPY requirements.txt /app
 
 # Install project dependencies

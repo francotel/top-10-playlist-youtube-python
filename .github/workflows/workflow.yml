@@ -29,4 +29,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install Podman
-        run: apt install -y podman
+        run: sudo apt install -y podman

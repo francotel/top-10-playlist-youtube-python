@@ -30,3 +30,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install Podman
         run: sudo apt install -y podman
+      
+      - name: Build Image
+        run: podman build -t youtube-top-10-playlist-viewer .

@@ -21,4 +21,11 @@ jobs:
           pip install -r requirements.txt
       
       - name: Run python
-        run: env YT_API_KEY={{ secrets.YT_API_KEY }} PLAYLIST_ID={{ secrets.PLAYLIST_ID }} python3 playlist-reinvent.py
+        run: env YT_API_KEY={{ secrets.YT_API_KEY }} PLAYLIST_ID={{ secrets.PLAYLIST_ID }} python3 top-10-playlist.py
+
+  podman:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Podman
+        run: apt install -y podman

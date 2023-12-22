@@ -36,3 +36,6 @@ jobs:
 
       - name: List Image
         run: podman image list
+
+      - name: Run Podman
+        run: podman run -it --rm -e YT_API_KEY=${{ secrets.YT_API_KEY}} -e PLAYLIST_ID=${{ secrets.PLAYLIST_ID }} youtube-top-10-playlist-viewer

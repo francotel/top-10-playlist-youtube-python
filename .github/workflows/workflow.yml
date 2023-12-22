@@ -33,3 +33,6 @@ jobs:
       
       - name: Build Image
         run: podman build -t youtube-top-10-playlist-viewer .
+
+      - name: List Image
+        run: podman image list

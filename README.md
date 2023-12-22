@@ -34,6 +34,25 @@ This project utilizes Python 🐍 to list the top 10 most viewed videos from a Y
     podman run --rm -e YT_API_KEY="$YT_API_KEY" -e PLAYLIST_ID="$PLAYLIST_ID" youtube-top-10-playlist-viewer
     ```
 
+## Advantages of Using Podman Over Docker 🐳
+
+- **No central daemon (rootless)**: Podman doesn’t require a central daemon like Docker, allowing containers to be run by non-root users. 👤
+
+- **Same CLI as Docker**: Podman offers a Docker-like CLI, making it easy for those familiar with Docker to transition and use. 💻
+
+- **Support for Kubernetes**: Podman has closer integration with Kubernetes, making container creation and management easier. 🚀
+
+- **Enhanced isolation and security**: Podman provides increased security by offering more process-level isolated containers, reducing the risk of malicious attacks. 🔒
+
+- **Portability of images and containers**: Podman's images and containers are highly portable and can be run on different operating systems without modifications. 🌐
+
+- **OCI Standards Compliance**: Podman adheres to Open Container Initiative (OCI) standards, ensuring compatibility with other tools and platforms following these standards. 🌟
+
+- **Multi-architecture development**: Podman is capable of running containers on different architectures, allowing multi-architecture development. 🖥️
+
+- **Greater storage flexibility**: Podman provides more flexible storage options, allowing users to manage volumes and storage in a more detailed and versatile manner. 📦
+
+
 ## GitHub Actions 🚀
 
 This repository utilizes GitHub Actions to automate the workflow. Actions are set up to run tests, build, and publish the container image when a push or pull request is made to the main branch. The repository uses secrets to securely store sensitive information like API keys.

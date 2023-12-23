@@ -61,6 +61,14 @@ This repository utilizes GitHub Actions to automate the workflow. Actions are se
 
 Contributions are welcome! If you'd like to enhance this project, feel free to submit a pull request.
 
+## ☕ Support This Project
+
+If you found this project helpful or useful and would like to support its development, consider buying me a coffee! Your support helps in maintaining and improving this project.
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%E2%98%95-yellow)](https://www.buymeacoffee.com/francotel)
+
+Your contribution means a lot! Thank you for your support! ❤️
+
 ## License 📄
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
